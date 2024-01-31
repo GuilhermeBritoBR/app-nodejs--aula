@@ -1,0 +1,13 @@
+body,html,nav,header{
+    margin: 0px;
+}
+header{border-top: solid 5px #ffffff ;
+    border-bottom: solid 5px #ffffff ;
+   padding: 20px;
+   
+}
+nav li{
+    text-align: right;
+    display: inline-block;
+    margin-left:50px;
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    
+}
+header, nav{
+    font-size:4vh;
+    
+    color: brown;
+    background-color: black;
+}

@@ -1,0 +1,10 @@
+h1 ,p ,h2, h3, h4{
+    color: #ffff;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+nav li :hover {
+    color: rgb(255, 123, 0);
+}

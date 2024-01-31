@@ -1,0 +1,94 @@
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+#one-picture{
+    width: 47%;
+    display: inline-block;
+     
+}
+.picture{
+    width: 49%;
+    display: inline-block;
+}
+.one-picture{
+    width: 100%;
+    
+}
+.text{
+    
+    font-size: 3vh;
+   display: block;
+   position:absolute;
+   opacity: 1;
+   top: 40%;
+   bottom: 70%;
+    text-align: center;
+    margin-right: 200px;
+    left: 40%;
+   
+
+    
+}
+.container{
+    background-image: url("../5576_xvpiracicaba-2014.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom: #ffffff solid 5px;
+    
+}
+.container-text{
+    
+    
+    font-size: 20px;
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    opacity: 1;
+}
+button{
+    height: 9vh;
+    width:28vh;
+    font-size: 3vh;
+    background-color: rgb(255, 123, 0);
+    border: solid 1px rgb(255, 115, 0);
+    border-bottom-left-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.4em #ffffff;
+    border-top: solid #ffffff 2px;
+    border-left: solid #ffffff 2px;
+    
+    
+}
+button:hover{
+    box-shadow: inset 0.1em 0.1em 0.4em #ffffff;
+    cursor: pointer;
+    font-size: 2.8vh;
+  
+}
+footer{
+    font-size: 3vh;
+    text-align: center;
+    padding: 30px;
+}
+input{
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    border-radius: 7px;
+    border: solid 1px #fff;
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+    align-items: center;
+}
